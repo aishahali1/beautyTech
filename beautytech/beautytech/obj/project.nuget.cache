@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "uSEukhnivZwUBjs7i2PhPRux1U3MAw9LhUojO6z93UhR+oybaD6seNHgI7m26SlDyQP8Wh7v9Eivw7jvjihXqA==",
+  "success": true,
+  "projectFilePath": "/Users/almisfer/Projects/beautytech/beautytech/beautytech/beautytech.csproj",
+  "expectedPackageFiles": [
+    "/Users/almisfer/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/almisfer/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/almisfer/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/almisfer/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/almisfer/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

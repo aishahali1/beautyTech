@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="beautytech.HomePage"
+    BackgroundColor="#FCF6FF">
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="Center">
+            <SearchBar Placeholder="write salon name" PlaceholderColor="#7A6C94" TextColor="#28003B"
+                       Margin="5" ></SearchBar>
+
+                    
+            <!--<Image Source="Salonlogo.jpeg" AbsoluteLayout.LayoutBounds="1,1,35,35" AbsoluteLayout.LayoutFlags="PositionProportional"
+                   WidthRequest="200" HeightRequest="200"/>-->
+            <Button Padding="5" HorizontalOptions="FillAndExpand" BorderWidth="3"
+                    BorderColor="#28003B" BackgroundColor="White"
+                    Text="Little details ladies center" FontAttributes="Bold"
+                    TextTransform="Uppercase" Clicked="Button_Clicked"
+                    />
+                     
+
+
+            
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

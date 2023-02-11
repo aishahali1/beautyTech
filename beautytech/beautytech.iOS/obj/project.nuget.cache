@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z6iCcvWknhzBnv7pva6WYRfrEC2C95vlZxTq02Oh2t4bg7zMGmB5PswoWX9W+D3sothJHNUS/UmguIRYQKrDCw==",
+  "success": true,
+  "projectFilePath": "/Users/almisfer/Projects/beautytech/beautytech/beautytech.iOS/beautytech.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/almisfer/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/almisfer/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/almisfer/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

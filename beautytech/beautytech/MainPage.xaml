@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="beautytech.MainPage">
+
+    <StackLayout Padding="38" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+            <Image Source="projectlogo1.jpeg" WidthRequest="250" HeightRequest="250"></Image>
+            <Entry x:Name="EmailorPhone" ReturnType="Next" Placeholder="Email or phone number" TextColor="#28003B" PlaceholderColor="#7A6C94"> </Entry>
+            <Entry x:Name="txtPass" ReturnType="Go" Placeholder="Password" IsPassword="True" TextColor="#28003B" PlaceholderColor="#7A6C94"> </Entry>
+            <Button VerticalOptions="Center" Text="Login" BackgroundColor="#553D68" TextColor="#FCF6FF"
+                    CornerRadius="50"
+                    Clicked="button_clicked" 
+                    />
+            <Label HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                       <Span Text="don't have an account?" TextColor="#7A6C94"/>
+                        <Span Text="register" TextColor="#7A6C94" FontAttributes="Bold" TextDecorations="Underline"
+ 
+                           />
+                        
+
+                    </FormattedString>
+
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="tapped_gesture"></TapGestureRecognizer>
+
+                </Label.GestureRecognizers>
+            </Label>
+         <Label Padding="15" HorizontalOptions="Center" >
+             <Label.FormattedText>
+                 <FormattedString>
+                     <Span Text="Continue as guest" TextColor="#7A6C94" TextDecorations="Underline"></Span>
+
+                 </FormattedString>
+
+             </Label.FormattedText>
+             <Label.GestureRecognizers>
+                 <TapGestureRecognizer Tapped="Guesttap"></TapGestureRecognizer>
+
+             </Label.GestureRecognizers>
+         </Label>
+        
+    </StackLayout>
+
+</ContentPage>
+

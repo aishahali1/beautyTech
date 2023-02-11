@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="beautytech.register"
+    BackgroundColor="#FCF6FF">
+    <ContentPage.Content>
+         <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+             <Entry x:Name="txtfullname" Placeholder="full name " TextColor="#28003B" PlaceholderColor="#7A6C94"> </Entry>
+             <Entry x:Name="txtPhonenumber" Placeholder="Phone number" TextColor="#28003B" PlaceholderColor="#7A6C94"> </Entry>
+            <Entry x:Name="txtEmail" Placeholder="Email Address" TextColor="#28003B" PlaceholderColor="#7A6C94"> </Entry>
+            <Entry x:Name="txtPass" Placeholder="Password" IsPassword="True" TextColor="#28003B" PlaceholderColor="#7A6C94"> </Entry>
+            <Button BackgroundColor="#553D68" VerticalOptions="Center" CornerRadius="50" Text="Register"
+                    TextColor="#FCF6FF" Clicked="registerClick"></Button>
+            <Label VerticalOptions="Center" HorizontalOptions="CenterAndExpand"
+                   Padding="5" Text="-------OR-------" FontSize="Medium"  TextColor="#553D68"></Label>
+            <Button Padding="5" VerticalOptions="Center" CornerRadius="50"
+                    BackgroundColor="#EA4335" Text="continue with google" TextColor="White">
+            </Button>
+             <Button VerticalOptions="Center" CornerRadius="50"
+                    BackgroundColor="#1877F2" Text="continue with facebook" TextColor="White">
+            </Button>
+             <Button VerticalOptions="Center" CornerRadius="50"
+                    BackgroundColor="#1D9BF0" Text="continue with twitter" TextColor="White">
+            </Button>
+            </StackLayout>
+
+       
+    </ContentPage.Content>
+</ContentPage>
+

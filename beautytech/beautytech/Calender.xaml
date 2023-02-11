@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="beautytech.Calender"
+    BackgroundColor="#FCF6FF">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" 
+                 VerticalOptions="Center">
+        
+        <DatePicker x:Name="MainDatePicker" 
+                    MinimumDate="1/1/2023"
+                    MaximumDate="12/31/2023" 
+                    DateSelected="MainDatePicker_DateSelected" TextColor="#28003B" />
+        
+        <Label x:Name="MainLabel" 
+               FontSize="20" 
+               TextColor="#28003B" />
+            <StackLayout Padding="10">
+                <Button VerticalOptions="CenterAndExpand" CornerRadius="20" Text="continue" TextColor="#FCF6FF"
+                    BackgroundColor="#28003B" Clicked="Button_Clicked">
+
+
+            </Button>
+
+            </StackLayout>
+            
+        
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
