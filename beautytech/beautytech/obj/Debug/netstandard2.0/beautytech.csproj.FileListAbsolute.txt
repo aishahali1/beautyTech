@@ -2,7 +2,6 @@
 /Users/almisfer/Projects/beautytech/beautytech/beautytech/bin/Debug/netstandard2.0/beautytech.dll
 /Users/almisfer/Projects/beautytech/beautytech/beautytech/bin/Debug/netstandard2.0/ref/beautytech.dll
 /Users/almisfer/Projects/beautytech/beautytech/beautytech/bin/Debug/netstandard2.0/beautytech.pdb
-/Users/almisfer/Projects/beautytech/beautytech/beautytech/obj/Debug/netstandard2.0/beautytech.csproj.AssemblyReference.cache
 /Users/almisfer/Projects/beautytech/beautytech/beautytech/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/almisfer/Projects/beautytech/beautytech/beautytech/obj/Debug/netstandard2.0/Calender.xaml.g.cs
 /Users/almisfer/Projects/beautytech/beautytech/beautytech/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
@@ -17,3 +16,4 @@
 /Users/almisfer/Projects/beautytech/beautytech/beautytech/obj/Debug/netstandard2.0/beautytech.dll
 /Users/almisfer/Projects/beautytech/beautytech/beautytech/obj/Debug/netstandard2.0/ref/beautytech.dll
 /Users/almisfer/Projects/beautytech/beautytech/beautytech/obj/Debug/netstandard2.0/beautytech.pdb
+/Users/almisfer/Projects/beautytech/beautytech/beautytech/obj/Debug/netstandard2.0/beautytech.csproj.AssemblyReference.cache

@@ -1,6 +1,46 @@
-﻿<Properties StartupConfiguration="{06134816-302A-4A83-AECC-2C3922F8EE25}|Default">
-  <MonoDevelop.Ide.ItemProperties.beautytech.Android FirstBuild="True" />
+﻿<Properties StartupConfiguration="{86B097DF-5B77-4692-9E57-21B4E7E654AF}|Default">
+  <MonoDevelop.Ide.ItemProperties.beautytech.Android PreferredExecutionTarget="Android.SelectDevice" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.beautytech FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.beautytech.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="beautytech/beautytech.iOS/Main.cs">
+    <Files>
+      <File FileName="beautytech/beautytech/HomePage.xaml.cs" Line="16" Column="51" />
+      <File FileName="beautytech/beautytech/SalonPage.xaml.cs" Line="17" Column="13" />
+      <File FileName="beautytech/beautytech/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="beautytech/beautytech/App.xaml.cs" Line="14" Column="55" />
+      <File FileName="beautytech/beautytech/HomePage.xaml" Line="1" Column="1" />
+      <File FileName="beautytech/beautytech/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="beautytech/beautytech.iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="beautytech" expanded="True">
+            <Node name="beautytech" expanded="True">
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="payment.xaml" expanded="True" />
+              <Node name="register.xaml" expanded="True" />
+              <Node name="SalonPage.xaml" expanded="True" />
+            </Node>
+            <Node name="beautytech.iOS" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.beautytech.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EF72B6FF-3183-47CE-80AE-41DF74ABEFC7" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

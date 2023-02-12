@@ -27,15 +27,13 @@ namespace beautytech
                 if (txtPass.Text == "123456")
                 {
 
-
-                    Application.Current.MainPage.Navigation.PushAsync(new HomePage());
-
+                     Navigation.PushAsync(new HomePage());
                 }
 
-            }
-            else
+            }  else
             {
                 DisplayAlert("try again", " Email or Password is incorrect!", "ok");
+          
             }
         }
         private void tapped_gesture(object sender, EventArgs e)

@@ -11,33 +11,39 @@
 
               
                 <StackLayout Orientation="Vertical" Spacing="10">  
-                    <Label Text="Review and Confirm" ></Label>
+                    <Label Text="Review and Confirm" TextColor="#28003B"></Label>
                     <Label Text="Appointment date: Thursday, Jun 15th 2023" TextColor="#28003B" ></Label>
-                    <Label Text="Appointment time: 2:30 PM" TextColor="#553D68"></Label>
+                    <Label Text="Appointment time: 2:30 PM" TextColor="#28003B"></Label>
                     <Label Text="Salon name: Little Details Ladies Center" TextColor="#28003B" ></Label>
-                    <Label Text="Salon location: 2294 Uthman Ibn, 7277 Uthman Ibn Affan Branch Rd Affan Branch Road, 12487 الرياض" TextColor="#553D68"></Label>
 
-                    <Label Text="Classic facial  185SR | تنظيف بشرة كلاسيك" TextColor="#28003B"></Label>
-                    <Label Text="With Dalia - 2:30 PM" TextColor="#553D68"></Label>
+                    <Label Text="Classic facial  185SR" TextColor="#28003B"></Label>
  
-                    
+                    </StackLayout>
+
+            <StackLayout Orientation="Vertical" Spacing="10">
                     <Entry x:Name="PromoCode" Placeholder="Have a code? Type it here"   
                            PlaceholderColor="#7A6C94"  TextColor="#28003B"/>  
 
                     <Entry x:Name="Notes" Placeholder="Write your notes"   
-                           PlaceholderColor="#7A6C94"  TextColor="#28003B"/>  
+                           PlaceholderColor="#7A6C94"  TextColor="#28003B"
+                           />
+
+                    </StackLayout>
+
+            <StackLayout Orientation="Vertical" Spacing="10" >
 
                          <Label Text="Summary" TextColor="#28003B"></Label>
-                    <Label TextColor="#28003B" Text="Sub total:                                                  185SR"></Label>
+                    <Label  TextColor="#28003B" Text="Sub total:                                                  185SR"></Label>
 
-                    <Label TextColor="#28003B" Text="Total:                                                      185SR"></Label>
+                    <Label TextColor="#28003B" Text="Total:                                                         185SR"></Label>
 
 
-                    <Label Text="Payment:" TextColor="#553D68"> </Label>
+                    <Label Text="Payment:" TextColor="#28003B"> </Label>
                            <RadioButton Content="Pay in Cash" IsChecked="true"></RadioButton>
                            <RadioButton Content="Pay with Credit Card"></RadioButton>
 
                     <Button Text="check out" BackgroundColor="DarkRed" TextColor="White"
+                            Clicked="CheckoutClick"
                             ></Button>
                 </StackLayout>
             </StackLayout>

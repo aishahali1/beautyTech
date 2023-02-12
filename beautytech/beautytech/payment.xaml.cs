@@ -11,10 +11,10 @@ namespace beautytech
         {
             InitializeComponent();
         }
-        private void CheckoutClick(object sender, EventArgs e)
+        void CheckoutClick(object sender, EventArgs e)
         {
             DisplayAlert("Success", "Appointment booked!", "ok");
-            Application.Current.MainPage.Navigation.PushAsync(new HomePage());
+            Navigation.PushAsync(new HomePage());
         }
     }
 }

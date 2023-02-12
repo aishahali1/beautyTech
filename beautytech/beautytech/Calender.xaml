@@ -12,6 +12,11 @@
                     MinimumDate="1/1/2023"
                     MaximumDate="12/31/2023" 
                     DateSelected="MainDatePicker_DateSelected" TextColor="#28003B" />
+
+        <TimePicker x:Name="_timePicker"
+                    Time="11:00:00"
+                    Format="T"
+                    PropertyChanged="OnTimePickerPropertyChanged" />
         
         <Label x:Name="MainLabel" 
                FontSize="20" 

@@ -11,9 +11,9 @@ namespace beautytech
         {
             InitializeComponent();
         }
-        private void Button_Clicked(object sender, EventArgs e)
+         async void Button_Clicked(object sender, EventArgs e)
         {
-            Application.Current.MainPage.Navigation.PushAsync(new SalonPage());
+          await Navigation.PushAsync(new SalonPage());
         }
     }
 }

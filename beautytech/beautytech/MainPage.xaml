@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="beautytech.MainPage">
+             x:Class="beautytech.MainPage"
+             BackgroundColor="#FCF6FF">
 
     <StackLayout Padding="38" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
             <Image Source="projectlogo1.jpeg" WidthRequest="250" HeightRequest="250"></Image>
